@@ -2,7 +2,8 @@ class HeroPowersController < ApplicationController
 rescue_from ActiveRecord::RecordInvalid, with: :record_invalid_hero_power
     def create
         @hero_power = HeroPower.create!(hero_power_params)
-        render json: @hero_power, status: :created
+        # byebug
+        render json: @hero_power.hero, status: :created
     end
 
     def index
@@ -17,6 +18,6 @@ rescue_from ActiveRecord::RecordInvalid, with: :record_invalid_hero_power
     end
 
     def record_invalid_hero_power(invalid)
-        render json: {errors: invalid.record.errors.full_messages}, status: :unproccessable_entity
+        render json: {errors: ["validation errors"]}, status: :unprocessable_entity
     end
 end
