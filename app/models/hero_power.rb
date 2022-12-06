@@ -1,0 +1,2 @@
+class HeroPower < ApplicationRecord
+end

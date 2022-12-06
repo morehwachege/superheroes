@@ -1,0 +1,2 @@
+class PowersController < ApplicationController
+end
