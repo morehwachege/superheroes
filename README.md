@@ -8,7 +8,7 @@
 
  </p>
 
- 
+
 #### _Most heroes do wear capes_
 
 Superheroes is an REST API that allows you to interact with your favorite superheroes.
@@ -54,5 +54,7 @@ After commits pushed are ready create a pull request for the feature and notify 
 
 ### License
 
-Made with ❤️ - [Twitter](https://twitter.com/muriithi_gakuru)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files in accordance with the **MIT license**
+
+
+Made with ❤️ - [Twitter](https://twitter.com/muriithi_gakuru)
